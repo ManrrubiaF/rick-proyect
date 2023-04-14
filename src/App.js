@@ -50,7 +50,7 @@ function App() {
    }
 
    return (
-      <div className='App'>
+      <div className="App bg-animation stars">
          {
             location.pathname !== '/' && <Nav onSearch={onSearch} setAccess={setAccess} />
          }
